@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    background: E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15 px;
+    line-height: 1;
+    color: #ffd300;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+} 
+
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Intro */
+.intro {
+    width: 100%;
+    height: 100vh;
+    
+    background: url("../images/intro.jpg") center
+        no-repeat;
+   -webkit-background-size:cover;
+    background-size:cover;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    
+}
+
+.intro__title {
+
+    padding-top: 180px;
+    font-family: 'Kaushan Script' , cursive;
+    color: #3F92D2;
+    font-size: 60px;
+    font-weight: 700
+}
+
+.intro__title:after {
+    margin-top: 100px;
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 20px auto 0;
+    
+    background-color: #ffc700;
+}
+
+.intro__subtitle {
+       display:flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffc700;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    line-height: 0.7;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffc700;
+    
+    
+}
+
+/* Nav */
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+    text-decoration: none;  
+    color: #ffc700;
+    transition: color 0.2s linear;
+}
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    display: none;
+    
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.nav__link:hover{
+    color: #fff;
+}
+
+.nav__link:hover:after {
+    display: block;
+    
+}
+
+/* Button */
+.btn {
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 40px 90px;
+    border: 3px solid #4DDE00;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    
+    text-transform: uppercase;
+    transition: background .2s linear, color .2s linear;
+    
+}
+
+.btn:hover {
+    background-color: #4DDE00;
+    color: #007143;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
